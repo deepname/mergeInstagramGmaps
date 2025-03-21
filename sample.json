@@ -1,0 +1,729 @@
+[
+  {
+     "id": "ChIJM5FFbvKipBIRdWugDh577Ao",
+     "types": [
+        "spanish_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+     ],
+     "nationalPhoneNumber": "935 18 50 53",
+     "formattedAddress": "Pg. de Grécia, 24 Bis, L'Eixample, 08007 Barcelona, Spain",
+     "rating": 4.4,
+     "websiteUri": "https://www.elnacionalbcn.com/",
+     "instagramURL": "https://www.instagram.com/elnacionalbcn/",
+     "businessStatus": "OPERATIONAL",
+     "priceLevel": "PRICE_LEVEL_MODERATE",
+     "userRatingCount": 36344,
+     "displayName": {
+        "text": "El Nacional Barcelona",
+        "languageCode": "en"
+     },
+     "primaryTypeDisplayName": {
+        "text": "Spanish Restaurant",
+        "languageCode": "en-US"
+     },
+     "delivery": "FALSE",
+     "priceRange": {
+        "startPrice": {
+           "currencyCode": "EUR",
+           "units": "20"
+        },
+        "endPrice": {
+           "currencyCode": "EUR",
+           "units": "40"
+        }
+     }
+  },
+  {
+     "id": "ChIJTSzGu4WipBIRkznre9Zwis0",
+     "types": [
+        "fine_dining_restaurant",
+        "mediterranean_restaurant",
+        "spanish_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+     ],
+     "nationalPhoneNumber": "933 48 68 96",
+     "formattedAddress": "Carrer de Villarroel, 163, L'Eixample, 08036 Barcelona, Spain",
+     "rating": 4.8,
+     "websiteUri": "http://www.disfrutarbarcelona.com/",
+     "instagramURL": "https://www.instagram.com/disfrutarbcn/",
+     "businessStatus": "OPERATIONAL",
+     "priceLevel": "PRICE_LEVEL_VERY_EXPENSIVE",
+     "userRatingCount": 3290,
+     "displayName": {
+        "text": "Disfrutar",
+        "languageCode": "en"
+     },
+     "primaryTypeDisplayName": {
+        "text": "Fine Dining Restaurant",
+        "languageCode": "en-US"
+     },
+     "delivery": "TRUE",
+     "priceRange": {
+        "startPrice": {
+           "currencyCode": "EUR",
+           "units": "100"
+        }
+     }
+  },
+  {
+     "id": "ChIJFbGR9zCjpBIRMe35kJinIrY",
+     "types": [
+        "mediterranean_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+     ],
+     "nationalPhoneNumber": "933 42 92 04",
+     "formattedAddress": "Rambla de Catalunya, 27, Local, Eixample, 08007 Barcelona, Spain",
+     "rating": 4.6,
+     "websiteUri": "http://www.lalolitarestaurante.com/",
+     "instagramURL": "https://www.instagram.com/lalolita_bcn/",
+     "businessStatus": "OPERATIONAL",
+     "priceLevel": "PRICE_LEVEL_MODERATE",
+     "userRatingCount": 9784,
+     "displayName": {
+        "text": "La Lolita Barcelona",
+        "languageCode": "es"
+     },
+     "primaryTypeDisplayName": {
+        "text": "Mediterranean Restaurant",
+        "languageCode": "en-US"
+     },
+     "delivery": "TRUE",
+     "priceRange": {
+        "startPrice": {
+           "currencyCode": "EUR",
+           "units": "20"
+        },
+        "endPrice": {
+           "currencyCode": "EUR",
+           "units": "30"
+        }
+     }
+  },
+  {
+     "id": "ChIJWXpb8PeipBIR9qHIBx1PV4U",
+     "types": [
+        "mediterranean_restaurant",
+        "seafood_restaurant",
+        "barbecue_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+     ],
+     "nationalPhoneNumber": "933 04 39 44",
+     "formattedAddress": "Carrer de la Boqueria, 17, Ciutat Vella, 08002 Barcelona, Spain",
+     "rating": 4.5,
+     "websiteUri": "https://www.restaurantelaboqueria.com/",
+     "instagramURL": "https://www.instagram.com/restaurantelaboqueriabarcelona",
+     "businessStatus": "OPERATIONAL",
+     "priceLevel": "PRICE_LEVEL_MODERATE",
+     "userRatingCount": 7380,
+     "displayName": {
+        "text": "Restaurant La Boqueria",
+        "languageCode": "ca"
+     },
+     "primaryTypeDisplayName": {
+        "text": "Mediterranean Restaurant",
+        "languageCode": "en-US"
+     },
+     "delivery": "TRUE",
+     "priceRange": {
+        "startPrice": {
+           "currencyCode": "EUR",
+           "units": "20"
+        },
+        "endPrice": {
+           "currencyCode": "EUR",
+           "units": "30"
+        }
+     }
+  },
+  {
+     "id": "ChIJ3XUCr0K5Z0ARbKq1CqAKgJQ",
+     "types": [
+        "mediterranean_restaurant",
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+     ],
+     "nationalPhoneNumber": "933 63 21 27",
+     "formattedAddress": "Carrer del Consell de Cent, 333, L'Eixample, 08007 Barcelona, Spain",
+     "rating": 4.5,
+     "websiteUri": "https://www.laflautagroup.com/",
+     "instagramURL": "https://www.instagram.com/restaurantevinitus/",
+     "businessStatus": "OPERATIONAL",
+     "priceLevel": "PRICE_LEVEL_MODERATE",
+     "userRatingCount": 14434,
+     "displayName": {
+        "text": "Vinitus",
+        "languageCode": "en"
+     },
+     "primaryTypeDisplayName": {
+        "text": "Restaurant",
+        "languageCode": "en-US"
+     },
+     "delivery": "FALSE",
+     "priceRange": {
+        "startPrice": {
+           "currencyCode": "EUR",
+           "units": "20"
+        },
+        "endPrice": {
+           "currencyCode": "EUR",
+           "units": "30"
+        }
+     }
+  },
+  {
+     "id": "ChIJb2HVzleipBIRsd7SIU8GRmE",
+     "types": [
+        "mediterranean_restaurant",
+        "seafood_restaurant",
+        "spanish_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+     ],
+     "nationalPhoneNumber": "933 01 85 29",
+     "formattedAddress": "Carrer dels Escudellers, 33, Ciutat Vella, 08002 Barcelona, Spain",
+     "rating": 4.7,
+     "websiteUri": "https://www.facebook.com/pages/Colom-Restaurant/2026230204369890",
+     "instagramURL": "",
+     "businessStatus": "OPERATIONAL",
+     "priceLevel": "PRICE_LEVEL_MODERATE",
+     "userRatingCount": 24036,
+     "displayName": {
+        "text": "Colom Restaurant",
+        "languageCode": "es"
+     },
+     "primaryTypeDisplayName": {
+        "text": "Mediterranean Restaurant",
+        "languageCode": "en-US"
+     },
+     "delivery": "FALSE",
+     "priceRange": {
+        "startPrice": {
+           "currencyCode": "EUR",
+           "units": "20"
+        },
+        "endPrice": {
+           "currencyCode": "EUR",
+           "units": "30"
+        }
+     }
+  },
+  {
+     "id": "ChIJZ45huwCjpBIRA2de0hBdZAg",
+     "types": [
+        "spanish_restaurant",
+        "mediterranean_restaurant",
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+     ],
+     "nationalPhoneNumber": "663 30 97 86",
+     "formattedAddress": "Carrer del Rosselló, 207, Eixample, 08008 Barcelona, Spain",
+     "rating": 4.8,
+     "websiteUri": "",
+     "instagramURL": "https://www.instagram.com/abanicbar",
+     "businessStatus": "OPERATIONAL",
+     "priceLevel": "",
+     "userRatingCount": 5384,
+     "displayName": {
+        "text": "ABANIC",
+        "languageCode": "en"
+     },
+     "primaryTypeDisplayName": {
+        "text": "Spanish Restaurant",
+        "languageCode": "en-US"
+     },
+     "delivery": "FALSE",
+     "priceRange": {
+        "startPrice": {
+           "currencyCode": "EUR",
+           "units": "20"
+        },
+        "endPrice": {
+           "currencyCode": "EUR",
+           "units": "40"
+        }
+     }
+  },
+  {
+     "id": "ChIJpy2NoSGjpBIRoU68e_1AEoI",
+     "types": [
+        "mediterranean_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+     ],
+     "nationalPhoneNumber": "605 65 89 56",
+     "formattedAddress": "Carrer de Provença, 179, L'Eixample, 08036 Barcelona, Spain",
+     "rating": 4.7,
+     "websiteUri": "https://soma-restaurant.com/",
+     "instagramURL": "https://www.instagram.com/somabcn_",
+     "businessStatus": "OPERATIONAL",
+     "priceLevel": "PRICE_LEVEL_MODERATE",
+     "userRatingCount": 1279,
+     "displayName": {
+        "text": "Soma restaurant",
+        "languageCode": "es"
+     },
+     "primaryTypeDisplayName": {
+        "text": "Mediterranean Restaurant",
+        "languageCode": "en-US"
+     },
+     "delivery": "FALSE",
+     "priceRange": {
+        "startPrice": {
+           "currencyCode": "EUR",
+           "units": "20"
+        },
+        "endPrice": {
+           "currencyCode": "EUR",
+           "units": "30"
+        }
+     }
+  },
+  {
+     "id": "ChIJeYwrA_uipBIRtLLknGLSRQA",
+     "types": [
+        "restaurant",
+        "mediterranean_restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+     ],
+     "nationalPhoneNumber": "936 24 10 16",
+     "formattedAddress": "Carrer de Sant Pere Més Alt, 49, Ciutat Vella, 08003 Barcelona, Spain",
+     "rating": 4.5,
+     "websiteUri": "https://casalolea.com/",
+     "instagramURL": "https://www.instagram.com/casalolea/",
+     "businessStatus": "OPERATIONAL",
+     "priceLevel": "PRICE_LEVEL_MODERATE",
+     "userRatingCount": 5445,
+     "displayName": {
+        "text": "Casa Lolea Barcelona",
+        "languageCode": "en"
+     },
+     "primaryTypeDisplayName": {
+        "text": "Restaurant",
+        "languageCode": "en-US"
+     },
+     "delivery": "FALSE",
+     "priceRange": {
+        "startPrice": {
+           "currencyCode": "EUR",
+           "units": "20"
+        },
+        "endPrice": {
+           "currencyCode": "EUR",
+           "units": "30"
+        }
+     }
+  },
+  {
+     "id": "ChIJP9t20GijpBIRRoc04WuZuwI",
+     "types": [
+        "steak_house",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+     ],
+     "nationalPhoneNumber": "661 40 45 30",
+     "formattedAddress": "Carrer del Comte d'Urgell, 111, L'Eixample, 08011 Barcelona, Spain",
+     "rating": 4.8,
+     "websiteUri": "https://app.donasador.es/inicio/",
+     "instagramURL": "https://www.instagram.com/donasador_",
+     "businessStatus": "OPERATIONAL",
+     "priceLevel": "PRICE_LEVEL_MODERATE",
+     "userRatingCount": 16649,
+     "displayName": {
+        "text": "Don Asador",
+        "languageCode": "ca"
+     },
+     "primaryTypeDisplayName": {
+        "text": "Restaurant",
+        "languageCode": "en-US"
+     },
+     "delivery": "TRUE",
+     "priceRange": {
+        "startPrice": {
+           "currencyCode": "EUR",
+           "units": "20"
+        },
+        "endPrice": {
+           "currencyCode": "EUR",
+           "units": "30"
+        }
+     }
+  },
+  {
+     "id": "ChIJmaXG8uuipBIRawbQjvwdL7w",
+     "types": [
+        "vegan_restaurant",
+        "vegetarian_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+     ],
+     "nationalPhoneNumber": "936 76 32 22",
+     "formattedAddress": "Carrer de Valéncia, 334, Local 1, Eixample, 08009 Barcelona, Spain",
+     "rating": 4.5,
+     "websiteUri": "https://nine.barcelona/en/",
+     "instagramURL": "https://www.instagram.com/nine.barcelona/",
+     "businessStatus": "OPERATIONAL",
+     "priceLevel": "PRICE_LEVEL_MODERATE",
+     "userRatingCount": 2453,
+     "displayName": {
+        "text": "Nine Barcelona",
+        "languageCode": "es"
+     },
+     "primaryTypeDisplayName": {
+        "text": "Restaurant",
+        "languageCode": "en-US"
+     },
+     "delivery": "TRUE",
+     "priceRange": ""
+  },
+  {
+     "id": "ChIJk1jIF0WjpBIRDI-K2RKQUj8",
+     "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+     ],
+     "nationalPhoneNumber": "930 07 25 93",
+     "formattedAddress": "Rambla de Catalunya, 27, bis, Eixample, 08007 Barcelona, Spain",
+     "rating": 4.7,
+     "websiteUri": "http://thesteakhouse.es/",
+     "instagramURL": "https://www.instagram.com/thesteakhousebcn",
+     "businessStatus": "OPERATIONAL",
+     "priceLevel": "PRICE_LEVEL_MODERATE",
+     "userRatingCount": 6837,
+     "displayName": {
+        "text": "The Steak House",
+        "languageCode": "es"
+     },
+     "primaryTypeDisplayName": {
+        "text": "Restaurant",
+        "languageCode": "en-US"
+     },
+     "delivery": "",
+     "priceRange": ""
+  },
+  {
+     "id": "ChIJGTrtltyipBIRtGgJda8twWo",
+     "types": [
+        "italian_restaurant",
+        "mediterranean_restaurant",
+        "pizza_restaurant",
+        "vegetarian_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+     ],
+     "nationalPhoneNumber": "935 25 04 71",
+     "formattedAddress": "Carrer de Lepant, 277, L'Eixample, 08013 Barcelona, Spain",
+     "rating": 4.8,
+     "websiteUri": "https://paisanobistro.com/",
+     "instagramURL": "https://www.instagram.com/paisano_bistro/",
+     "businessStatus": "OPERATIONAL",
+     "priceLevel": "PRICE_LEVEL_MODERATE",
+     "userRatingCount": 2948,
+     "displayName": {
+        "text": "Paisano Bistró",
+        "languageCode": "es"
+     },
+     "primaryTypeDisplayName": {
+        "text": "Italian Restaurant",
+        "languageCode": "en-US"
+     },
+     "delivery": "TRUE",
+     "priceRange": {
+        "startPrice": {
+           "currencyCode": "EUR",
+           "units": "20"
+        },
+        "endPrice": {
+           "currencyCode": "EUR",
+           "units": "30"
+        }
+     }
+  },
+  {
+     "id": "ChIJ6_fckBijpBIRKuN4tjfLq3s",
+     "types": [
+        "restaurant",
+        "mediterranean_restaurant",
+        "spanish_restaurant",
+        "bar",
+        "food",
+        "point_of_interest",
+        "establishment"
+     ],
+     "nationalPhoneNumber": "685 14 76 29",
+     "formattedAddress": "Carrer de les Sitges, 10, Ciutat Vella, 08001 Barcelona, Spain",
+     "rating": 4.8,
+     "websiteUri": "https://raobcn.com/",
+     "instagramURL": "https://www.instagram.com/raobcn/",
+     "businessStatus": "OPERATIONAL",
+     "priceLevel": "",
+     "userRatingCount": 707,
+     "displayName": {
+        "text": "Xera Restaurant",
+        "languageCode": "es"
+     },
+     "primaryTypeDisplayName": {
+        "text": "Restaurant",
+        "languageCode": "en-US"
+     },
+     "delivery": "FALSE",
+     "priceRange": {
+        "startPrice": {
+           "currencyCode": "EUR",
+           "units": "30"
+        },
+        "endPrice": {
+           "currencyCode": "EUR",
+           "units": "50"
+        }
+     }
+  },
+  {
+     "id": "ChIJb-E-RfmipBIRmDyFS5ND__8",
+     "types": [
+        "mediterranean_restaurant",
+        "museum",
+        "spanish_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+     ],
+     "nationalPhoneNumber": "932 95 64 67",
+     "formattedAddress": "Carrer dels Mercaders, 10, Ciutat Vella, 08003 Barcelona, Spain",
+     "rating": 4.6,
+     "websiteUri": "https://www.arcanobarcelona.com/",
+     "instagramURL": "https://www.instagram.com/arcanobcn/",
+     "businessStatus": "OPERATIONAL",
+     "priceLevel": "PRICE_LEVEL_MODERATE",
+     "userRatingCount": 4559,
+     "displayName": {
+        "text": "Arcano Restaurant",
+        "languageCode": "en"
+     },
+     "primaryTypeDisplayName": {
+        "text": "Mediterranean Restaurant",
+        "languageCode": "en-US"
+     },
+     "delivery": "TRUE",
+     "priceRange": ""
+  },
+  {
+     "id": "ChIJ_0MAT42ipBIRzRp5sSdFQL4",
+     "types": [
+        "mediterranean_restaurant",
+        "bar",
+        "farm",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+     ],
+     "nationalPhoneNumber": "935 28 60 02",
+     "formattedAddress": "Carrer del Consell de Cent, 335, L'Eixample, 08007 Barcelona, Spain",
+     "rating": 4.6,
+     "websiteUri": "https://2254tapasbarcelona.com/",
+     "instagramURL": "https://www.instagram.com/tapas2254/",
+     "businessStatus": "OPERATIONAL",
+     "priceLevel": "PRICE_LEVEL_MODERATE",
+     "userRatingCount": 5309,
+     "displayName": {
+        "text": "2254 Barcelona Restaurant",
+        "languageCode": "en"
+     },
+     "primaryTypeDisplayName": {
+        "text": "Restaurant",
+        "languageCode": "en-US"
+     },
+     "delivery": "TRUE",
+     "priceRange": {
+        "startPrice": {
+           "currencyCode": "EUR",
+           "units": "20"
+        },
+        "endPrice": {
+           "currencyCode": "EUR",
+           "units": "40"
+        }
+     }
+  },
+  {
+     "id": "ChIJoW3KxVeipBIRWyvQI76z4cA",
+     "types": [
+        "mediterranean_restaurant",
+        "bar_and_grill",
+        "spanish_restaurant",
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+     ],
+     "nationalPhoneNumber": "930 15 25 25",
+     "formattedAddress": "Carrer del Vidre, 7, Ciutat Vella, 08002 Barcelona, Spain",
+     "rating": 4.8,
+     "websiteUri": "http://www.vianabcn.com/?utm_source=google&utm_medium=organic&utm_campaign=gmb",
+     "instagramURL": "https://www.instagram.com/vianabcn/",
+     "businessStatus": "OPERATIONAL",
+     "priceLevel": "PRICE_LEVEL_MODERATE",
+     "userRatingCount": 4002,
+     "displayName": {
+        "text": "Viana Barcelona",
+        "languageCode": "en"
+     },
+     "primaryTypeDisplayName": {
+        "text": "Restaurant",
+        "languageCode": "en-US"
+     },
+     "delivery": "",
+     "priceRange": ""
+  },
+  {
+     "id": "ChIJA_sTFX-ipBIR4foXyGXk9vU",
+     "types": [
+        "spanish_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+     ],
+     "nationalPhoneNumber": "658 73 88 88",
+     "formattedAddress": "Carrer de Tarragona, 129, Sants-Montjuíc, 08014 Barcelona, Spain",
+     "rating": 4.7,
+     "websiteUri": "https://laterrazamirobcn.com/",
+     "instagramURL": "https://www.instagram.com/laterrazamiro/",
+     "businessStatus": "OPERATIONAL",
+     "priceLevel": "PRICE_LEVEL_INEXPENSIVE",
+     "userRatingCount": 4077,
+     "displayName": {
+        "text": "La Terraza Miró",
+        "languageCode": "ca"
+     },
+     "primaryTypeDisplayName": {
+        "text": "Spanish Restaurant",
+        "languageCode": "en-US"
+     },
+     "delivery": "FALSE",
+     "priceRange": {
+        "startPrice": {
+           "currencyCode": "EUR",
+           "units": "20"
+        },
+        "endPrice": {
+           "currencyCode": "EUR",
+           "units": "30"
+        }
+     }
+  },
+  {
+     "id": "ChIJ4aTqxfaipBIRi9Kz759j6GI",
+     "types": [
+        "mediterranean_restaurant",
+        "coffee_shop",
+        "food_store",
+        "cafe",
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "store",
+        "establishment"
+     ],
+     "nationalPhoneNumber": "933 21 50 93",
+     "formattedAddress": "Carrer de Santa Anna, 11, Ciutat Vella, 08002 Barcelona, Spain",
+     "rating": 4.5,
+     "websiteUri": "https://pradodeflores.es/",
+     "instagramURL": "https://www.instagram.com/restaurantepradodeflores/",
+     "businessStatus": "OPERATIONAL",
+     "priceLevel": "PRICE_LEVEL_MODERATE",
+     "userRatingCount": 3139,
+     "displayName": {
+        "text": "Prado de Flores Restaurant",
+        "languageCode": "en"
+     },
+     "primaryTypeDisplayName": {
+        "text": "Mediterranean Restaurant",
+        "languageCode": "en-US"
+     },
+     "delivery": "FALSE",
+     "priceRange": {
+        "startPrice": {
+           "currencyCode": "EUR",
+           "units": "20"
+        },
+        "endPrice": {
+           "currencyCode": "EUR",
+           "units": "30"
+        }
+     }
+  },
+  {
+     "id": "ChIJDz5L73KjpBIRPfPZU3PsjVw",
+     "types": [
+        "spanish_restaurant",
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+     ],
+     "nationalPhoneNumber": "657 01 67 03",
+     "formattedAddress": "Carrer dels Escudellers, 12, Ciutat Vella, 08002 Barcelona, Spain",
+     "rating": 4.8,
+     "websiteUri": "",
+     "instagramURL": "https://www.instagram.com/nix.bcn",
+     "businessStatus": "OPERATIONAL",
+     "priceLevel": "",
+     "userRatingCount": 3473,
+     "displayName": {
+        "text": "Nix Tapas & Drinks",
+        "languageCode": "es"
+     },
+     "primaryTypeDisplayName": {
+        "text": "Spanish Restaurant",
+        "languageCode": "en-US"
+     },
+     "delivery": "FALSE",
+     "priceRange": {
+        "startPrice": {
+           "currencyCode": "EUR",
+           "units": "20"
+        },
+        "endPrice": {
+           "currencyCode": "EUR",
+           "units": "30"
+        }
+     }
+  }
+]
