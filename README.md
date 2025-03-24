@@ -23,6 +23,10 @@ npm run build
 - Ejecutar el proyecto:
 ```bash
 npm start
+
+npm start extract instagramInfo.json
+
+npm start merge instagramInfo.json gmapsInfo.json output.json
 ```
 
 - Ejecutar tests:
