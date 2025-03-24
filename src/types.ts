@@ -3,7 +3,12 @@ interface PriceAmount {
   units: string;
 }
 
-interface PriceRange {
+type PriceRange = {
+  startPrice?: PriceAmount;
+  endPrice?: PriceAmount;
+} | string;
+
+interface PriceRangeObject {
   startPrice?: PriceAmount;
   endPrice?: PriceAmount;
 }
@@ -13,7 +18,7 @@ interface DisplayName {
   languageCode: string;
 }
 
-export interface Restaurant {
+export type Restaurant = {
   id: string;
   types: string[];
   nationalPhoneNumber?: string;

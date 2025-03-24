@@ -1,5 +1,7 @@
 import { promises as fs } from 'fs';
+import { z } from 'zod';
 import { Restaurant } from './types.js';
+import { InstagramDataSchema, RestaurantSchema } from './schemas.js';
 
 interface InstagramPost {
     date: string;
@@ -10,22 +12,24 @@ interface InstagramPost {
     location: string | null;
 }
 
+interface InstagramUserData {
+    username: string;
+    full_name: string;
+    biography: string;
+    followers: number;
+    following: number;
+    post_count: number;
+    posts: InstagramPost[];
+}
+
 interface InstagramData {
     status: string;
-    data: {
-        username: string;
-        full_name: string;
-        biography: string;
-        followers: number;
-        following: number;
-        post_count: number;
-        posts: InstagramPost[];
-    };
+    data: InstagramUserData[];
     error: string | null;
 }
 
 interface RestaurantWithInstagram extends Restaurant {
-    instagram_data?: {
+    instagramData?: {
         followers: number;
         following: number;
         biography: string;
@@ -34,16 +38,17 @@ interface RestaurantWithInstagram extends Restaurant {
     };
 }
 
-async function readJsonFile<T>(filePath: string): Promise<T> {
+async function readJsonFile<T>(filePath: string, schema?: z.ZodType<T>): Promise<T> {
     try {
         const fileContent = await fs.readFile(filePath, 'utf8');
-        return JSON.parse(fileContent);
+        const data = JSON.parse(fileContent);
+        return schema ? schema.parse(data) : data;
     } catch (error) {
         throw new Error(`Failed to read or parse JSON file: ${error instanceof Error ? error.message : 'Unknown error'}`);
     }
 }
 
-function extractInstagramUsernames(data: Restaurant[]): string[] {
+export function extractInstagramUsernames(data: Restaurant[]): string[] {
     return data
         .map(item => {
             if (!item.instagramURL) return '';
@@ -54,8 +59,8 @@ function extractInstagramUsernames(data: Restaurant[]): string[] {
                 return pathParts[pathParts.length - 1] || pathParts[pathParts.length - 2] || '';
             } catch {
                 // If URL is invalid, try to extract username from the raw string
-                const parts = item.instagramURL.split('/');
-                return parts[parts.length - 1] || parts[parts.length - 2] || '';
+                const username = item.instagramURL.replace('@', '');
+                return username || '';
             }
         })
         .filter(username => username !== ''); // Remove empty usernames
@@ -73,8 +78,8 @@ export async function processJsonFile(filePath: string): Promise<string[]> {
 export async function mergeGmapsInstagram(gmapsPath: string, instagramPath: string, outputPath: string): Promise<void> {
     try {
         // Leer ambos archivos JSON
-        const gmapsData = await readJsonFile<Restaurant[]>(gmapsPath);
-        const instagramData = await readJsonFile<InstagramData>(instagramPath);
+        const gmapsData = await readJsonFile<Restaurant[]>(gmapsPath, z.array(RestaurantSchema));
+        const instagramData = await readJsonFile<InstagramData>(instagramPath, InstagramDataSchema);
 
         // Encontrar el restaurante correspondiente en gmapsData
         const updatedGmapsData = gmapsData.map(restaurant => {
@@ -84,16 +89,19 @@ export async function mergeGmapsInstagram(gmapsPath: string, instagramPath: stri
             const instagramUrl = restaurant.instagramURL;
             const username = instagramUrl.split('/').filter(Boolean).pop();
 
-            // Si el username coincide con los datos de Instagram, fusionar la información
-            if (username === instagramData.data.username) {
+            // Buscar los datos de Instagram correspondientes
+            const matchingInstagramData = instagramData.data.find(data => data.username === username);
+
+            // Si encontramos datos de Instagram para este restaurante, fusionar la información
+            if (matchingInstagramData) {
                 return {
                     ...restaurant,
                     instagram_data: {
-                        followers: instagramData.data.followers,
-                        following: instagramData.data.following,
-                        biography: instagramData.data.biography,
-                        post_count: instagramData.data.post_count,
-                        recent_posts: instagramData.data.posts
+                        followers: matchingInstagramData.followers,
+                        following: matchingInstagramData.following,
+                        biography: matchingInstagramData.biography,
+                        post_count: matchingInstagramData.post_count,
+                        recent_posts: matchingInstagramData.posts
                     }
                 } as RestaurantWithInstagram;
             }
