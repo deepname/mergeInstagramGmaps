@@ -4,6 +4,7 @@
   "description": "Process Instagram URLs from JSON file",
   "main": "dist/index.js",
   "type": "module",
+  "node": "18.19.1",
   "scripts": {
     "build": "tsc",
     "start": "npm run build && node dist/index.js"
